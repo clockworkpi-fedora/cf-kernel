@@ -190,7 +190,8 @@ Summary: The Linux kernel
 # End of genspec.sh variables
 #
 
-%define pkg_release %{specrelease}
+#%define pkg_release %{specrelease}
+%define pkg_release 1
 
 # libexec dir is not used by the linker, so the shared object there
 # should not be exported to RPM provides
